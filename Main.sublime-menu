@@ -1,0 +1,38 @@
+[
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+						"caption": "LogAnalyzer",
+						"children":
+						[
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/LogAnalyzer/LogAnalyzer.sublime-settings"},
+								"caption": "Configuration"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/LogAnalyzer/Default.sublime-keymap"
+								},
+								"caption": "Key Bindings"
+							}
+						]
+					}
+		]
+	},
+	{
+		"id": "help",
+		"children":
+		[
+			{
+				"caption": "LogAnalyzer - Help",
+				"command": "open_file",
+        		"args": {"file": "${packages}/LogAnalyzer/help/ReadMe.md"}
+			}
+		]
+	}
+]

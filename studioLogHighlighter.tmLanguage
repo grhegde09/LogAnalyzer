@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+		<string>log</string>
+	</array>
+	<key>name</key>
+	<string>Studio Log</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^.*\| ERROR \|.*$</string>
+			<key>name</key>
+			<string>studiolog.error</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*\| WARN \|.*$</string>
+			<key>name</key>
+			<string>studiolog.warn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*\| INFO \|.*$</string>
+			<key>name</key>
+			<string>studiolog.info</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*\| Entry \|.*$</string>
+			<key>name</key>
+			<string>studiolog.entryExit</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*\| Exit \|.*$</string>
+			<key>name</key>
+			<string>studiolog.entryExit</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*\| DEBUG \|.*$</string>
+			<key>name</key>
+			<string>studiolog.debug</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.studio_log</string>
+	<key>uuid</key>
+	<string>4044d558-6360-4093-93a7-b0795df5b9b8</string>
+</dict>
+</plist>

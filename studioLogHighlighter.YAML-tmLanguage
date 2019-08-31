@@ -1,0 +1,19 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: Studio Log
+scopeName: text.studio_log
+fileTypes: [txt, log]
+uuid: 4044d558-6360-4093-93a7-b0795df5b9b8
+
+patterns: 
+- name: studiolog.error
+  match: '^.*\| ERROR \|.*$'
+- name: studiolog.warn
+  match: '^.*\| WARN \|.*$'
+- name: studiolog.info
+  match: '^.*\| INFO \|.*$'
+- name: studiolog.entryExit
+  match: '^.*\| Entry \|.*$'
+- name: studiolog.entryExit
+  match: '^.*\| Exit \|.*$'
+- name: studiolog.debug
+  match: '^.*\| DEBUG \|.*$'

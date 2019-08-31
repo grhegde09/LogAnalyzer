@@ -1,0 +1,6 @@
+[
+	{ "keys": ["super+ctrl+h"], "command": "highlight_lines"},
+	{ "keys": ["super+ctrl+shift+h"], "command": "undo_highlight_lines"},
+	{ "keys": ["super+ctrl+e"], "command": "erase_lines"},
+	{ "keys": ["super+ctrl+shift+e"], "command": "undo_erase_lines"}
+]

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "highlighterPreferences": {
+      "highlightPatterns": [
+        {
+          "searchRegex": "DefaultHighlightPattern1",
+          "style": 1
+        },
+        {
+          "searchRegex": "DefaultHighlightPattern2",
+          "style": 2
+        }
+      ]
+    },
+    "filterPreferences": {
+      "isFilteringEnabled": false,
+      "filterPatterns": [
+        "DefaultFilterPattern1",
+        "DefaultFilterPattern2"
+      ]
+    }
+  }
+}

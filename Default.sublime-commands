@@ -1,0 +1,23 @@
+[
+    {
+        "caption": "LogAnalyzer: Highlight Lines",
+        "command": "highlight_lines"
+    },
+    {
+        "caption": "LogAnalyzer: Clear Highlighted Lines",
+        "command": "undo_highlight_lines"
+    },
+    {
+        "caption": "LogAnalyzer: Apply filter",
+        "command": "erase_lines"
+    },
+    {
+        "caption": "LogAnalyzer: Clear Filter",
+        "command": "undo_erase_lines"
+    },
+    {
+        "caption": "LogAnalyzer: Open configuration",
+        "command": "open_file",
+        "args": {"file": "${packages}/LogAnalyzer/LogAnalyzer.sublime-settings"},
+    }
+]
