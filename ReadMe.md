@@ -33,5 +33,5 @@ The *Packages* directory locations are listed below. Alternatively, selecting `P
 | Windows       | `%APPDATA%\Sublime Text 3\Packages\`                      |
 
 
-## Help on how to use this plugin can be found here: [LogAnalyzer:Help](https://gitlab.com/grhegde09/LogAnalyzer/tree/master/help)
+## Help on how to use this plugin can be found here: [LogAnalyzer:Help](https://github.com/grhegde09/LogAnalyzer/tree/master/help)
 You can also opn `Help` -> `LogAnalyzer - Help` to view help from within Sublime Text 3.
